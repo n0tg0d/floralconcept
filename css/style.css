@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #F2F2F2;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.6)), url('../images/vecteezy_3d-rendered-red-and-gold-valentine-themed-of-confetti-gift_38907921.png') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  header p {
+    font-size: 1.2em;
+  }
+  
+  .form-container {
+    margin-top: 30px;
+  }
+  .form-container input {
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+    }
+  .form-container button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #e60039;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .prizes-grid {
+    padding: 20px 20px;
+    background-color: #fff0f3;
+    text-align: center;
+  }
+  
+  .prizes-grid h2 {
+    font-size: 2em;
+    color: #F20732;
+    margin-bottom: 10px;
+  }
+  
+  .prizes-grid .subtitle {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 40px;
+  }
+  
+  .prize-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .prize-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .prize-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .prize-card h3 {
+    font-size: 1.2em;
+    color: #F20732;
+    margin-bottom: 10px;
+  }
+  
+  .prize-card p {
+    font-size: 0.95em;
+    color: #555;
+  }
+  .about {
+    background: url('../images/vecteezy_bouquet-of-pink-and-red-roses-surrounded-by-heart-shaped_48583492.jpeg') no-repeat center/cover;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 60px 60px; 
+    color: #fff;
+    min-height: 400px;
+  }
+  
+  .about-text {
+    max-width: 500px;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    color: #555;
+
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    color: #F20732;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .step {
+    flex: 1 1 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #F20732;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  .step-number {
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: #F20732;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+  }
+  footer {
+    background: #e60039;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  .florale-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .florale-text {
+    flex: 1 1 400px;
+    color: #333;
+  }
+  
+  .florale-text h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #F20732;
+  }
+  
+  .florale-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .florale-image {
+    flex: 1 1 300px;
+    text-align: right;
+  }
+  
+  .florale-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  @media(max-width: 600px) {
+    .form-container input {
+      width: 95%;
+      margin-bottom: 10px;
+    }
+    .form-container button {
+      width: 100%;
+    }
+    .steps {
+      flex-direction: column;
+    }
+    .florale-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .florale-image {
+      text-align: center;
+    }
+  }
